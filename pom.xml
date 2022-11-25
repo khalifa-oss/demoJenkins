@@ -47,8 +47,11 @@
                         </exclude>
                     </excludes>
                 </configuration>
+
             </plugin>
+
         </plugins>
+        <finalName> demo-jenkins-docker</finalName>
     </build>
 
 </project>
