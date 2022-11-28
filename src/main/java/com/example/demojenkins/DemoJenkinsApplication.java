@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.GetMapping;
         return "hello word ";
 
     }
+    @GetMapping(path = "/test")
+    public String displayTest(){
+        return "test... ";
+
+    }
 }
 
 @SpringBootApplication
