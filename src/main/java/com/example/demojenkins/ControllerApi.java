@@ -2,7 +2,9 @@ package com.example.demojenkins;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-@Controller
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class ControllerApi {
     @GetMapping ("/hello")
     public String display(){
